@@ -1,2 +1,11 @@
 # OpenHarness
-Open-source Harness CAD for KiCad and industrial wiring.
+
+Open Source Harness CAD
+
+## Features
+
+- CAD View
+- Connector
+- Wire
+- CSV Import
+- KiCad Import
