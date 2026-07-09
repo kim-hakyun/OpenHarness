@@ -1,14 +1,21 @@
 from PySide6.QtWidgets import QApplication, QLabel
 import sys
 
+from PySide6.QtWidgets import QApplication
+
+from openharness.app import OpenHarnessApplication
+
+
 def main():
+
     app = QApplication(sys.argv)
 
-    label = QLabel("OpenHarness V0.1.0")
-    label.resize(400, 120)
-    label.show()
+    application = OpenHarnessApplication(app)
+
+    application.run()
 
     sys.exit(app.exec())
+
 
 if __name__ == "__main__":
     main()
